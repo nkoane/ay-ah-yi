@@ -38,7 +38,7 @@ model = SentenceTransformer(model_name_or_path=model_name, device=device)
 # BEGIN: 1b2c3d4e5f6g
 
 areWeTestingTheFile = True
-whichFileAreWeTesting = 'docs/arundathi-roy/come-september.txt'
+whichFileAreWeTesting = '../data/docs/arundathi-roy/come-september.txt'
 
 if (areWeTestingTheFile):
     with open(whichFileAreWeTesting, 'r') as f:
