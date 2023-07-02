@@ -75,7 +75,6 @@ def search():
     # clip.tokenize(text_labels).to(device)
     query_tokens = clip.tokenize([query]).to(device)
     vector = model.encode_text(query_tokens)
-    vector = model.encode_text(query_tokens)
     print(len(vector), len(query_tokens), query_tokens.shape, vector.shape)
     # exit()
 
