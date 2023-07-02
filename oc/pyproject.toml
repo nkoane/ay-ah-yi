@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "oc"
+version = "0.1.0"
+description = ""
+authors = ["lebogang nkoane <1555646+nkoane@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+open-clip-torch = "^2.20.0"
+matplotlib = "^3.7.1"
+transformers = "^4.30.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
